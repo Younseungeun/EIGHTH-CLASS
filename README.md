@@ -41,8 +41,8 @@
 11. pinMode(motor2PinA, OUTPUT);     
 12. pinMode(motor2PinB, OUTPUT);
 13. pinMode(enableRPin, OUTPUT);
-14. analogWrite(enablelPin, 100);//모터속도를 정해준다
-15. analogWrite(enableRPin, 100);//모터속도를 정해준다
+14. analogWrite(enablelPin, 100);//set the speed of the motor
+15. analogWrite(enableRPin, 100);//set the speed of the motor
 16. delay(1000);          
 17. }
 18. void loop() {     
